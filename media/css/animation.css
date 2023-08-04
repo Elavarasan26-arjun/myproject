@@ -1,0 +1,39 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius:0% 0% 100% 0%;
+    position: relative;
+    background-color: blue;
+    animation-name:triangle;
+    animation-duration: 3s;
+    animation-timing-function: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 20;
+
+}
+@keyframes triangle{
+    0%{
+        background-color: brown;
+        left: 0px;
+        top: 0px;
+    }
+    100%{
+        background-color:darkturquoise;
+        width: 300px;
+        height: 300px;
+        left: 600px;
+        top: 600px;
+    }
+}
+.cube{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    position: relative;
+    background-color: blue;
+    animation-name: circle;
+    animation-duration: 3s;
+    animation-timing-function: 3s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 20;
+}

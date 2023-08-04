@@ -1,0 +1,88 @@
+h3{
+    color:rgb(0, 0, 143);
+    background-color: rgba(255,0,0,.2);
+}
+body{
+    background-color: aqua;
+}
+
+h1{
+    color:orange;
+    background-color: red;
+    
+}
+.under{
+    color:brown;
+    font-size: 1em;
+    font-weight:light;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: extra-expanded;
+    text-transform:uppercase
+}
+    .head{
+    color:red;
+    background-color: blanchedalmond;
+    font-size: 1em;
+    font-weight:light;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: extra-expanded;
+    text-transform:uppercase;
+}
+.hes{
+    
+        color:red;
+        background-color: blanchedalmond;
+        font-size: 1em;
+        font-weight:light;
+        font-style: italic;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-stretch: extra-expanded;
+        text-transform:uppercase;
+        border:1px solid black
+}
+.hees{
+    color:red;
+    background-color: blanchedalmond;
+    font-size: 1em;
+    font-weight:light;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: extra-expanded;
+    text-transform:uppercase;
+}
+a:visited{
+    color:black;
+}
+a:link{
+    color:blue;
+}
+a.hover{
+    color:blueviolet;
+}
+p[class]{
+    font-size: 2em;
+    word-spacing: .25em;
+    text-align: center;
+    text-align: justify;
+    text-indent: 50px;
+    width: 1000px;
+    background-color: antiquewhite;
+    text-shadow: 2px 2px 2px black;
+    color:orange;
+    border:150px solid;
+    border-image:url(./../images/star.jpg) 10% round;
+    
+    
+    
+    
+    
+}
+p:first-letter{
+    font-size: 3em;
+    color: red;
+    
+}
+
+

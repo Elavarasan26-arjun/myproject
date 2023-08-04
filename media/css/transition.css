@@ -1,0 +1,38 @@
+.square{
+    
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+    /*transition: background-color 5s 10s ease-in-out;*/
+    
+}
+.shape div:hover{
+    font-size: 200px;
+    font-style: italic;
+    
+    color: aliceblue;
+    background-color: aqua;
+    width: 800px;
+   
+    /*transform:rotate(90deg);*/
+   
+
+}
+.circle{
+   
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.text h1{
+    color: darkgoldenrod;
+    font-size: 50px;
+    font-weight: 600px;
+    font-style: italic;
+
+}

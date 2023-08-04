@@ -1,0 +1,115 @@
+.bluebox{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+}
+.redbox{
+    background-color: brown;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+h1{
+    color: blue;
+}
+.col p{
+    width: 30%;
+    float: left;
+
+
+}
+.col p:nth-child(3){
+    clear: left;
+}
+.col{
+    display: flex;
+    color: white; 
+    font-size: 20px;
+    background: url("./../images/back.jpg");
+    width: auto;
+    height: auto;
+    flex-direction: column;
+  
+
+    
+}
+ .align{
+    color: brown; 
+    text-align: center;
+    
+
+    
+}
+.content{
+    width: 500px;
+    margin: 250px auto;
+    padding: 10px 20px 30px;
+    background-color: rgba(0, 0,0 , .2);
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    
+
+}
+.input input{
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px solid green;
+    box-shadow: 2px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+}
+input:focus{
+    background-color: aqua;
+}
+.content.table{
+    display: block;
+}
+input:focus{
+    color: rebeccapurple;
+}
+.btn{
+    text-align: center;
+}
+.radio input{  accent-color:red;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+button{
+background-color: aquamarine;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: 1px solid green;
+    box-shadow: 2px;
+}
+.GENDER{
+    color: brown; 
+    text-align:left;
+    
+}
+.work{
+    background-color:rebeccapurple;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 20px;
+}
+
+
+    
+
+
+
+  
+
